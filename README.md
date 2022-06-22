@@ -1,2 +1,5 @@
-# Netmiko
-Python script to login to network devices and provide output
+# netmiko
+
+Using netmiko to simplify gathering basic output from network devices
+
+
