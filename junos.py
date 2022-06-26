@@ -1,5 +1,6 @@
 import time
 from getpass import getpass
+import maskpass
 from netmiko import ConnectHandler
 from netmiko.ssh_exception import NetMikoTimeoutException
 from paramiko.ssh_exception import SSHException
@@ -7,7 +8,7 @@ from netmiko.ssh_exception import AuthenticationException
 
 try:
     usr = input("Enter your username: ") or "ntt-noc"
-    pwd = getpass("Password: ")
+    pwd = maskpass.advpass()
 except KeyboardInterrupt:   # exit when ctrl+c is pressed
     print("\nOK Good Bye!!!...")
     raise SystemExit
