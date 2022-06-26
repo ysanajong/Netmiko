@@ -1,0 +1,648 @@
+BE_LLN_FW_OT_11 # get sys stat
+Version: FortiGate-200E v6.4.9,build1966,220421 (GA)
+Virus-DB: 90.03506(2022-06-22 22:20)
+Extended DB: 90.03506(2022-06-22 22:19)
+IPS-DB: 6.00741(2015-12-01 02:30)
+IPS-ETDB: 21.00343(2022-06-21 23:50)
+APP-DB: 21.00342(2022-06-21 00:49)
+INDUSTRIAL-DB: 21.00342(2022-06-21 00:49)
+IPS Malicious URL Database: 4.00389(2022-06-22 21:19)
+Serial-Number: FG200ETK19902789
+BIOS version: 05000006
+System Part-Number: P19082-03
+Log hard disk: Not available
+Hostname: BE_LLN_FW_OT_11
+Private Encryption: Disable
+Operation Mode: NAT
+Current virtual domain: root
+Max number of virtual domains: 10
+Virtual domains status: 1 in NAT mode, 0 in TP mode
+Virtual domain configuration: disable
+FIPS-CC mode: disable
+Current HA mode: a-p, primary
+Cluster uptime: 344 days, 17 hours, 12 minutes, 10 seconds
+Cluster state change time: 2022-06-07 17:00:50
+Branch point: 1966
+Release Version Information: GA
+FortiOS x86-64: Yes
+System time: Thu Jun 23 11:34:55 2022
+
+BE_LLN_FW_OT_11 # get sys perf stat
+CPU states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU0 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU1 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+Memory: 4057592k total, 1274396k used (31.4%), 2531436k free (62.4%), 251760k freeable (6.2%)
+Average network usage: 579 / 483 kbps in 1 minute, 588 / 488 kbps in 10 minutes, 592 / 488 kbps in 30 m                                                                                                                                      inutes
+Average sessions: 184 sessions in 1 minute, 182 sessions in 10 minutes, 182 sessions in 30 minutes
+Average session setup rate: 2 sessions per second in last 1 minute, 2 sessions per second in last 10 mi                                                                                                                                      nutes, 1 sessions per second in last 30 minutes
+Average NPU sessions: 29 sessions in last 1 minute, 29 sessions in last 10 minutes, 29 sessions in last                                                                                                                                       30 minutes
+Virus caught: 0 total in 1 minute
+IPS attacks blocked: 0 total in 1 minute
+Uptime: 20 days,  20 hours,  30 minutes
+
+BE_LLN_FW_OT_11 # get hardware stat
+Model name: FortiGate-200E
+ASIC version: CP9
+ASIC SRAM: 64M
+CPU: Intel(R) Celeron(R) CPU G1820 @ 2.70GHz
+Number of CPUs: 2
+RAM: 3962 MB
+Compact Flash: 15331 MB /dev/sda
+Hard disk: not available
+USB Flash: not available
+Network Card chipset: Intel(R) Gigabit Ethernet Linux Driver (rev.0003)
+Network Card chipset: FortiASIC NP6LITE Adapter (rev.)
+
+BE_LLN_FW_OT_11 # get hardware ?
+cpu       Display detailed information for all installed CPU(s).
+memory    Display system memory information.
+nic       Display NIC information.
+status    Hardware status.
+
+BE_LLN_FW_OT_11 # get sys ha stat
+HA Health Status: OK
+Model: FortiGate-200E
+Mode: HA A-P
+Group: 0
+Debug: 0
+Cluster Uptime: 344 days 17:13:16
+Cluster state change time: 2022-06-07 17:00:50
+Primary selected using:
+    <2022/06/07 17:00:50> FG200ETK19902789 is selected as the primary because it has the largest value of override priority.
+    <2022/06/07 17:00:49> FG200ETK19902860 is selected as the primary because it has the least value 0 of link-failure + pingsvr-failure.
+    <2022/06/02 15:05:32> FG200ETK19902789 is selected as the primary because it has the largest value of override priority.
+ses_pickup: enable, ses_pickup_delay=disable
+override: enable
+Configuration Status:
+    FG200ETK19902789(updated 4 seconds ago): in-sync
+    FG200ETK19902860(updated 0 seconds ago): in-sync
+System Usage stats:
+    FG200ETK19902789(updated 4 seconds ago):
+        sessions=172, average-cpu-user/nice/system/idle=0%/0%/0%/100%, memory=31%
+    FG200ETK19902860(updated 0 seconds ago):
+        sessions=26, average-cpu-user/nice/system/idle=0%/0%/0%/100%, memory=30%
+HBDEV stats:
+    FG200ETK19902789(updated 4 seconds ago):
+        ha: physical/1000auto, up, rx-bytes/packets/dropped/errors=4854674694/13940751/0/0, tx=13094401949/18785639/0/0
+    FG200ETK19902860(updated 0 seconds ago):
+        ha: physical/1000auto, up, rx-bytes/packets/dropped/errors=13094677351/18787078/0/0, tx=4854708042/13942288/0/0
+MONDEV stats:
+    FG200ETK19902789(updated 4 seconds ago):
+        port1: physical/1000auto, up, rx-bytes/packets/dropped/errors=50055634506/168413440/0/0, tx=65185100675/105967684/0/0
+        port2: physical/100auto, up, rx-bytes/packets/dropped/errors=64793257300/116683313/0/0, tx=40378890756/82777788/0/0
+    FG200ETK19902860(updated 0 seconds ago):
+        port1: physical/1000auto, up, rx-bytes/packets/dropped/errors=8113696815/83564869/0/0, tx=8891957/11356/0/0
+        port2: physical/100auto, up, rx-bytes/packets/dropped/errors=937319075/13149371/0/0, tx=2919169/6907/0/0
+Primary     : BE_LLN_FW_OT_11 , FG200ETK19902789, HA cluster index = 1
+Secondary   : BE_LLN_FW_OT_12 , FG200ETK19902860, HA cluster index = 0
+number of vcluster: 1
+vcluster 1: work 169.254.0.2
+Primary: FG200ETK19902789, HA operating index = 0
+Secondary: FG200ETK19902860, HA operating index = 1
+
+BE_LLN_FW_OT_11 # get sys ha
+group-id            : 0
+group-name          : LLN
+mode                : a-p
+sync-packet-balance : disable
+password            : *
+hbdev               : "ha" 80
+session-sync-dev    :
+route-ttl           : 10
+route-wait          : 0
+route-hold          : 10
+multicast-ttl       : 600
+sync-config         : enable
+encryption          : disable
+authentication      : disable
+hb-interval         : 2
+hb-lost-threshold   : 6
+hello-holddown      : 20
+gratuitous-arps     : enable
+arps                : 5
+arps-interval       : 8
+session-pickup      : enable
+session-pickup-connectionless: disable
+session-pickup-expectation: disable
+session-pickup-delay: disable
+link-failed-signal  : disable
+uninterruptible-upgrade: enable
+uninterruptible-primary-wait: 30
+ha-mgmt-status      : enable
+ha-mgmt-interfaces:
+    == [ 1 ]
+    id:     1
+ha-eth-type         : 8890
+hc-eth-type         : 8891
+l2ep-eth-type       : 8893
+ha-uptime-diff-margin: 300
+vcluster-id         : 1
+override            : enable
+priority            : 150
+override-wait-time  : 0
+monitor             : "port1" "port2"
+pingserver-monitor-interface:
+vdom                : "root"
+vcluster2           : disable
+ha-direct           : disable
+memory-compatible-mode: disable
+logical-sn          : disable
+
+
+FR_BSS_FW_OT_11 # get system info admin status
+Index  User name   Login type  From
+Logged in users: 1
+USERNAME        TYPE    FROM             TIME
+NTT_Fortigate   ssh     10.132.245.3     Thu Jun 23 11:36:03 2022
+
+
+/////depends on model and settings (it seems)  6.4.9  200 series
+BE_LLN_FW_OT_11 # exec sensor list
+ 1 FAN 1  CPU Fan Speed                4440 RPM
+ 2 FAN 2  CPU Fan Speed                4655 RPM
+ 3 FAN 3  REAR FAN                   4687 RPM
+ 4 TMP 1  Thermal sensor 1           33.00 °C
+ 5 TMP 2  Thermal sensor 2           38.00 °C
+ 6 TMP 3  Thermal sensor 3           36.00 °C
+
+///// 6.2
+FR_BSS_FW_OT_11 # execute sensor list  400E series
+ 1 +VCC3             alarm=0  value=3.311  threshold_status=0
+ 2 +VCC5             alarm=0  value=5.0172  threshold_status=0
+ 3 +VCC12            alarm=0  value=11.976  threshold_status=0
+ 4 DVDD10            alarm=0  value=1.0114  threshold_status=0
+ 5 NP6_1V15_1        alarm=0  value=1.1662  threshold_status=0
+ 6 DDR3_VCC1V5_1     alarm=0  value=1.4758  threshold_status=0
+ 7 NP6_2V5_1         alarm=0  value=2.508  threshold_status=0
+ 8 1V0_PHY           alarm=0  value=0.9985  threshold_status=0
+ 9 VCC10_CP9         alarm=0  value=1.1533  threshold_status=0
+10 P3V3_I/O          alarm=0  value=3.2896  threshold_status=0
+11 NP6_P3V3          alarm=0  value=3.311  threshold_status=0
+12 P1V0_PCH          alarm=0  value=1.04  threshold_status=0
+13 VTT_DDR           alarm=0  value=0.592  threshold_status=0
+14 VCCSA             alarm=0  value=1.04  threshold_status=0
+15 VCCIO             alarm=0  value=0.944  threshold_status=0
+16 +VCORE            alarm=0  value=0.96  threshold_status=0
+17 +VCC_DDR          alarm=0  value=1.184  threshold_status=0
+18 VPP_DDR           alarm=0  value=2.464  threshold_status=0
+19 VCCST             alarm=0  value=1.024  threshold_status=0
+20 DTS CPU           alarm=0  value=38  threshold_status=0
+21 TD1               alarm=0  value=34  threshold_status=0
+22 TD2               alarm=0  value=40  threshold_status=0
+23 TR3               alarm=0  value=40  threshold_status=0
+24 LM75 U79          alarm=0  value=33  threshold_status=0
+25 LM75 U76          alarm=0  value=40  threshold_status=0
+26 Fan 1             alarm=0  value=6400  threshold_status=0
+27 Fan 2             alarm=0  value=6600  threshold_status=0
+28 Fan 4             alarm=0  value=4600  threshold_status=0
+29 PS1 VIN           alarm=0  value=224  threshold_status=0
+30 PS1 VOUT_12V      alarm=0  value=12.032  threshold_status=0
+31 PS1 Temp 1        alarm=0  value=21  threshold_status=0
+32 PS1 Temp 2        alarm=0  value=23  threshold_status=0
+33 PS1 Fan 1         alarm=0  value=6016  threshold_status=0
+34 PS1 Status        alarm=0
+35 PS2 VIN           alarm=0  value=224  threshold_status=0
+36 PS2 VOUT_12V      alarm=0  value=12.032  threshold_status=0
+37 PS2 Temp 1        alarm=0  value=23  threshold_status=0
+38 PS2 Temp 2        alarm=0  value=24  threshold_status=0
+39 PS2 Fan 1         alarm=0  value=5760  threshold_status=0
+40 PS2 Status        alarm=0
+
+FR_BSS_FW_OT_11 # diag hardware deviceinfo
+disk    Display information of all disks.
+nic     Display NIC information. [Take 0-1 arg(s)]
+psu     Display power supply information. [Take 0-64 arg(s)]
+
+FR_BSS_FW_OT_11 # diag hardware deviceinfo psu
+PSU 01:
+ Product Manufacturer  : Murata-PS
+ Product Name          : D1U54P-W-450-12-HA4C
+ Product Version       : RJ
+ Product Serial        : XQ2035RJ0775
+ Product Extra         : Pri f/w rev: 9151001909-13-01
+ Product Extra         : Sec f/w rev: 9157001909-13-01
+
+PSU 02:
+ Product Manufacturer  : Murata-PS
+ Product Name          : D1U54P-W-450-12-HA4C
+ Product Version       : RJ
+ Product Serial        : XQ2029RJ1715
+ Product Extra         : Pri f/w rev: 9151001909-13-01
+ Product Extra         : Sec f/w rev: 9157001909-13-01
+ 
+
+
+FR_BSS_FW_OT_11 # diag hardware deviceinfo disk
+
+Disk SYSTEM(boot)              14.9GiB    type: SSD [ATA 16GB SATA Flash] dev: /dev/sda
+  partition          247.0MiB, 177.0MiB free  mounted: N  label:  dev: /dev/sda1(boot) start: 1
+  partition          247.0MiB, 165.0MiB free  mounted: Y  label:  dev: /dev/sda2(boot) start: 524289
+  partition ref:   3  14.2GiB,  14.1GiB free  mounted: Y  label:  dev: /dev/sda3 start: 1048577
+
+Total available disks: 1
+Max SSD disks: 0  Available storage disks: 0
+
+FR_BSS_FW_OT_11 # diag hardware deviceinfo nic
+The following NICs are available:
+        ha
+        mgmt
+        port1
+        port10
+        port11
+        port12
+        port13
+        port14
+        port15
+        port16
+        port17
+        port18
+        port19
+        port2
+        port20
+        port21
+        port22
+        port23
+        port24
+        port25
+        port26
+        port27
+        port28
+        port3
+        port4
+        port5
+        port6
+        port7
+        port8
+        port9
+        s1
+        s2
+        vw1
+        vw2
+
+
+///Check on side of the secondary member (number can by 1 or 0 and then admin credentials) 
+
+FR_BSS_FW_OT_11 # execute ha manage 1 NTT_Fortigate
+NTT_Fortigate@169.254.0.2's password:
+FR_BSS_FW_OT_12 #
+FR_BSS_FW_OT_12 #
+FR_BSS_FW_OT_12 # get sys stat
+Version: FortiGate-400E v6.2.5,build1142,200819 (GA)
+Firmware Signature: certified
+Virus-DB: 90.03510(2022-06-23 00:20)
+Extended DB: 90.03510(2022-06-23 00:19)
+Extreme DB: 1.00000(2018-04-09 18:07)
+IPS-DB: 6.00741(2015-12-01 02:30)
+IPS-ETDB: 21.00343(2022-06-21 23:50)
+APP-DB: 21.00342(2022-06-21 00:49)
+INDUSTRIAL-DB: 21.00342(2022-06-21 00:49)
+Serial-Number: FG4H0ETB20904243
+IPS Malicious URL Database: 4.00389(2022-06-22 21:19)
+Botnet DB: 4.00754(2022-06-15 19:38)
+BIOS version: 05000013
+System Part-Number: P24084-03
+Log hard disk: Not available
+Hostname: FR_BSS_FW_OT_12
+Operation Mode: NAT
+Current virtual domain: root
+Max number of virtual domains: 10
+Virtual domains status: 1 in NAT mode, 0 in TP mode
+Virtual domain configuration: disable
+FIPS-CC mode: disable
+Current HA mode: a-p, backup
+Cluster uptime: 299 days, 20 hours, 36 minutes, 53 seconds
+Cluster state change time: 2021-11-26 18:10:29
+Branch point: 1142
+Release Version Information: GA
+FortiOS x86-64: Yes
+System time: Thu Jun 23 11:38:42 2022
+
+//Generate crashlog
+
+FR_BSS_FW_OT_11 # diag debug crashlog read
+1: 2021-11-26 17:03:29 Interface port25 is brought down. process_id=19426, process_name="newcli"
+2: 2021-11-26 17:03:29 Interface port26 is brought down. process_id=19426, process_name="newcli"
+3: 2021-11-26 17:03:29 Interface port27 is brought down. process_id=19426, process_name="newcli"
+4: 2021-11-26 17:03:29 Interface port28 is brought down. process_id=19426, process_name="newcli"
+5: 2021-11-26 17:03:29 Interface s1 is brought down. process_id=19426, process_name="newcli"
+6: 2021-11-26 17:03:30 Interface s2 is brought down. process_id=19426, process_name="newcli"
+7: 2021-11-26 17:03:30 Interface vw1 is brought down. process_id=19426, process_name="newcli"
+8: 2021-11-26 17:03:30 Interface vw2 is brought down. process_id=19426, process_name="newcli"
+9: 2021-12-16 00:53:39 the killed daemon is /bin/eap_proxy: status=0x0
+10: 2022-02-09 10:22:18 the killed daemon is /bin/harelay: status=0xd
+11: 2022-02-23 18:53:21 the killed daemon is /bin/eap_proxy: status=0x0
+12: 2022-03-23 18:53:32 the killed daemon is /bin/eap_proxy: status=0x0
+13: 2022-04-27 12:54:06 the killed daemon is /bin/eap_proxy: status=0x100
+14: 2022-05-30 14:04:04 <16957> firmware FortiGate-400E v6.2.5,build1142b1142,200819 (GA) (Release)
+15: 2022-05-30 14:04:04 <16957> application httpsd
+16: 2022-05-30 14:04:04 <16957> *** signal 11 (Segmentation fault) received ***
+17: 2022-05-30 14:04:04 <16957> Register dump:
+18: 2022-05-30 14:04:04 <16957> RAX: 0000000000000000   RBX: 00000000fffffffc
+19: 2022-05-30 14:04:04 <16957> RCX: fffffffffffdc7d0   RDX: 00007fff056a5860
+20: 2022-05-30 14:04:04 <16957> R08: 0000000000000000   R09: 0000000000000001
+21: 2022-05-30 14:04:04 <16957> R10: 0000000000000008   R11: 0000000000000246
+22: 2022-05-30 14:04:04 <16957> R12: 0000000000000000   R13: 00007fff056a5860
+23: 2022-05-30 14:04:04 <16957> R14: 0000000000000005   R15: 00007fff056a57e0
+24: 2022-05-30 14:04:04 <16957> RSI: 0000000000000000   RDI: 00007fff056c9000
+25: 2022-05-30 14:04:04 <16957> RBP: 00007fff056a67c0   RSP: 00007fff056a5888
+26: 2022-05-30 14:04:04 <16957> RIP: 00007f7faca75dfd   EFLAGS: 0000000000010282
+27: 2022-05-30 14:04:04 <16957> CS:  0033   FS: 0000   GS: 0000
+28: 2022-05-30 14:04:04 <16957> Trap: 000000000000000e   Error: 0000000000000006
+29: 2022-05-30 14:04:04 <16957> OldMask: 0000000000000000
+30: 2022-05-30 14:04:04 <16957> CR2: 00007fff056c9000
+31: 2022-05-30 14:04:04 <16957> stack: 0x7fff056a5888 - 0x7fff056c76f0
+32: 2022-05-30 14:04:04 <16957> Backtrace:
+33: 2022-05-30 14:04:04 <16957> [0x7f7faca75dfd] => /usr/lib/x86_64-linux-gnu/libc.so.6  liboffset
+34: 2022-05-30 14:04:04 00151dfd
+35: 2022-05-30 14:04:04 <16957> [0x00000000]
+36: 2022-05-30 14:04:04 <16957> [0x00000000]
+37: 2022-05-30 14:04:12 httpsd previously crashed 1 times. The last crash was at 2022-05-30 14:04:04.
+38: 2022-05-30 14:04:12 <16958> firmware FortiGate-400E v6.2.5,build1142b1142,200819 (GA) (Release)
+39: 2022-05-30 14:04:12 <16958> application httpsd
+40: 2022-05-30 14:04:12 <16958> *** signal 11 (Segmentation fault) received ***
+41: 2022-05-30 14:04:12 <16958> Register dump:
+42: 2022-05-30 14:04:12 <16958> RAX: 0000000000000000   RBX: 00000000fffffffc
+43: 2022-05-30 14:04:12 <16958> RCX: fffffffffffdc7d0   RDX: 00007fff056a5860
+44: 2022-05-30 14:04:12 <16958> R08: 0000000000000000   R09: 0000000000000001
+45: 2022-05-30 14:04:12 <16958> R10: 0000000000000008   R11: 0000000000000246
+46: 2022-05-30 14:04:12 <16958> R12: 0000000000000000   R13: 00007fff056a5860
+47: 2022-05-30 14:04:12 <16958> R14: 0000000000000005   R15: 00007fff056a57e0
+48: 2022-05-30 14:04:12 <16958> RSI: 0000000000000000   RDI: 00007fff056c9000
+49: 2022-05-30 14:04:12 <16958> RBP: 00007fff056a67c0   RSP: 00007fff056a5888
+50: 2022-05-30 14:04:12 <16958> RIP: 00007f7faca75dfd   EFLAGS: 0000000000010282
+51: 2022-05-30 14:04:12 <16958> CS:  0033   FS: 0000   GS: 0000
+52: 2022-05-30 14:04:12 <16958> Trap: 000000000000000e   Error: 0000000000000006
+53: 2022-05-30 14:04:12 <16958> OldMask: 0000000000000000
+54: 2022-05-30 14:04:12 <16958> CR2: 00007fff056c9000
+55: 2022-05-30 14:04:12 <16958> stack: 0x7fff056a5888 - 0x7fff056c76f0
+56: 2022-05-30 14:04:12 <16958> Backtrace:
+57: 2022-05-30 14:04:12 <16958> [0x7f7faca75dfd] => /usr/lib/x86_64-linux-gnu/libc.so.6  liboffset
+58: 2022-05-30 14:04:12 00151dfd
+59: 2022-05-30 14:04:12 <16958> [0x00000000]
+60: 2022-05-30 14:04:12 <16958> [0x00000000]
+61: 2022-05-30 14:04:13 httpsd previously crashed 2 times. The last crash was at 2022-05-30 14:04:12.
+62: 2022-05-30 14:04:13 <17023> firmware FortiGate-400E v6.2.5,build1142b1142,200819 (GA) (Release)
+63: 2022-05-30 14:04:13 <17023> application httpsd
+64: 2022-05-30 14:04:13 <17023> *** signal 11 (Segmentation fault) received ***
+65: 2022-05-30 14:04:13 <17023> Register dump:
+66: 2022-05-30 14:04:13 <17023> RAX: 0000000000000000   RBX: 00000000fffffffc
+67: 2022-05-30 14:04:13 <17023> RCX: fffffffffffdc7d0   RDX: 00007fff056a5860
+68: 2022-05-30 14:04:13 <17023> R08: 0000000000000000   R09: 0000000000000001
+69: 2022-05-30 14:04:13 <17023> R10: 0000000000000008   R11: 0000000000000246
+70: 2022-05-30 14:04:13 <17023> R12: 0000000000000000   R13: 00007fff056a5860
+71: 2022-05-30 14:04:13 <17023> R14: 0000000000000005   R15: 00007fff056a57e0
+72: 2022-05-30 14:04:13 <17023> RSI: 0000000000000000   RDI: 00007fff056c9000
+73: 2022-05-30 14:04:13 <17023> RBP: 00007fff056a67c0   RSP: 00007fff056a5888
+74: 2022-05-30 14:04:13 <17023> RIP: 00007f7faca75dfd   EFLAGS: 0000000000010282
+75: 2022-05-30 14:04:13 <17023> CS:  0033   FS: 0000   GS: 0000
+76: 2022-05-30 14:04:13 <17023> Trap: 000000000000000e   Error: 0000000000000006
+77: 2022-05-30 14:04:13 <17023> OldMask: 0000000000000000
+78: 2022-05-30 14:04:13 <17023> CR2: 00007fff056c9000
+79: 2022-05-30 14:04:13 <17023> stack: 0x7fff056a5888 - 0x7fff056c76f0
+80: 2022-05-30 14:04:13 <17023> Backtrace:
+81: 2022-05-30 14:04:13 <17023> [0x7f7faca75dfd] => /usr/lib/x86_64-linux-gnu/libc.so.6  liboffset
+82: 2022-05-30 14:04:13 00151dfd
+83: 2022-05-30 14:04:13 <17023> [0x00000000]
+84: 2022-05-30 14:04:13 <17023> [0x00000000]
+85: 2022-05-30 14:05:37 httpsd previously crashed 3 times. The last crash was at 2022-05-30 14:04:13.
+86: 2022-05-30 14:05:37 <18410> firmware FortiGate-400E v6.2.5,build1142b1142,200819 (GA) (Release)
+87: 2022-05-30 14:05:37 <18410> application httpsd
+88: 2022-05-30 14:05:37 <18410> *** signal 11 (Segmentation fault) received ***
+89: 2022-05-30 14:05:37 <18410> Register dump:
+90: 2022-05-30 14:05:37 <18410> RAX: 0000000000000000   RBX: 00000000fffffffc
+91: 2022-05-30 14:05:37 <18410> RCX: fffffffffffdc7d0   RDX: 00007fff056a5860
+92: 2022-05-30 14:05:37 <18410> R08: 0000000000000000   R09: 0000000000000001
+93: 2022-05-30 14:05:37 <18410> R10: 0000000000000008   R11: 0000000000000246
+94: 2022-05-30 14:05:37 <18410> R12: 0000000000000000   R13: 00007fff056a5860
+95: 2022-05-30 14:05:37 <18410> R14: 0000000000000005   R15: 00007fff056a57e0
+96: 2022-05-30 14:05:37 <18410> RSI: 0000000000000000   RDI: 00007fff056c9000
+97: 2022-05-30 14:05:37 <18410> RBP: 00007fff056a67c0   RSP: 00007fff056a5888
+98: 2022-05-30 14:05:37 <18410> RIP: 00007f7faca75dfd   EFLAGS: 0000000000010282
+99: 2022-05-30 14:05:37 <18410> CS:  0033   FS: 0000   GS: 0000
+100: 2022-05-30 14:05:37 <18410> Trap: 000000000000000e   Error: 0000000000000006
+101: 2022-05-30 14:05:37 <18410> OldMask: 0000000000000000
+102: 2022-05-30 14:05:37 <18410> CR2: 00007fff056c9000
+103: 2022-05-30 14:05:37 <18410> stack: 0x7fff056a5888 - 0x7fff056c76f0
+104: 2022-05-30 14:05:37 <18410> Backtrace:
+105: 2022-05-30 14:05:37 <18410> [0x7f7faca75dfd] => /usr/lib/x86_64-linux-gnu/libc.so.6  liboffset
+106: 2022-05-30 14:05:37 00151dfd
+107: 2022-05-30 14:05:37 <18410> [0x00000000]
+108: 2022-05-30 14:05:37 <18410> [0x00000000]
+109: 2022-05-30 15:05:38 httpsd crashed 4 times. The latest crash was at 2022-05-30 14:05:37.
+110: 2022-05-30 15:07:16 <18426> firmware FortiGate-400E v6.2.5,build1142b1142,200819 (GA) (Release)
+111: 2022-05-30 15:07:16 <18426> application httpsd
+112: 2022-05-30 15:07:16 <18426> *** signal 11 (Segmentation fault) received ***
+113: 2022-05-30 15:07:16 <18426> Register dump:
+114: 2022-05-30 15:07:16 <18426> RAX: 0000000000000000   RBX: 00000000fffffffc
+115: 2022-05-30 15:07:16 <18426> RCX: fffffffffffdc7d0   RDX: 00007fff056a5860
+116: 2022-05-30 15:07:16 <18426> R08: 0000000000000000   R09: 0000000000000001
+117: 2022-05-30 15:07:16 <18426> R10: 0000000000000008   R11: 0000000000000246
+118: 2022-05-30 15:07:16 <18426> R12: 0000000000000000   R13: 00007fff056a5860
+119: 2022-05-30 15:07:16 <18426> R14: 0000000000000005   R15: 00007fff056a57e0
+120: 2022-05-30 15:07:16 <18426> RSI: 0000000000000000   RDI: 00007fff056c9000
+121: 2022-05-30 15:07:16 <18426> RBP: 00007fff056a67c0   RSP: 00007fff056a5888
+122: 2022-05-30 15:07:16 <18426> RIP: 00007f7faca75dfd   EFLAGS: 0000000000010282
+123: 2022-05-30 15:07:16 <18426> CS:  0033   FS: 0000   GS: 0000
+124: 2022-05-30 15:07:16 <18426> Trap: 000000000000000e   Error: 0000000000000006
+125: 2022-05-30 15:07:16 <18426> OldMask: 0000000000000000
+126: 2022-05-30 15:07:16 <18426> CR2: 00007fff056c9000
+127: 2022-05-30 15:07:16 <18426> stack: 0x7fff056a5888 - 0x7fff056c76f0
+128: 2022-05-30 15:07:16 <18426> Backtrace:
+129: 2022-05-30 15:07:16 <18426> [0x7f7faca75dfd] => /usr/lib/x86_64-linux-gnu/libc.so.6  liboffset
+130: 2022-05-30 15:07:16 00151dfd
+131: 2022-05-30 15:07:16 <18426> [0x00000000]
+132: 2022-05-30 15:07:16 <18426> [0x00000000]
+133: 2022-05-30 16:07:19 httpsd crashed 1 times. The latest crash was at 2022-05-30 15:07:16.
+134: 2022-06-01 12:29:14 <18411> firmware FortiGate-400E v6.2.5,build1142b1142,200819 (GA) (Release)
+135: 2022-06-01 12:29:14 <18411> application httpsd
+136: 2022-06-01 12:29:14 <18411> *** signal 11 (Segmentation fault) received ***
+137: 2022-06-01 12:29:14 <18411> Register dump:
+138: 2022-06-01 12:29:14 <18411> RAX: 0000000000000000   RBX: 00000000fffffffc
+139: 2022-06-01 12:29:14 <18411> RCX: fffffffffffdc7d0   RDX: 00007fff056a5860
+140: 2022-06-01 12:29:14 <18411> R08: 0000000000000000   R09: 0000000000000001
+141: 2022-06-01 12:29:14 <18411> R10: 0000000000000008   R11: 0000000000000246
+142: 2022-06-01 12:29:14 <18411> R12: 0000000000000000   R13: 00007fff056a5860
+143: 2022-06-01 12:29:14 <18411> R14: 0000000000000005   R15: 00007fff056a57e0
+144: 2022-06-01 12:29:14 <18411> RSI: 0000000000000000   RDI: 00007fff056c9000
+145: 2022-06-01 12:29:14 <18411> RBP: 00007fff056a67c0   RSP: 00007fff056a5888
+146: 2022-06-01 12:29:14 <18411> RIP: 00007f7faca75dfd   EFLAGS: 0000000000010282
+147: 2022-06-01 12:29:14 <18411> CS:  0033   FS: 0000   GS: 0000
+148: 2022-06-01 12:29:14 <18411> Trap: 000000000000000e   Error: 0000000000000006
+149: 2022-06-01 12:29:14 <18411> OldMask: 0000000000000000
+150: 2022-06-01 12:29:14 <18411> CR2: 00007fff056c9000
+151: 2022-06-01 12:29:14 <18411> stack: 0x7fff056a5888 - 0x7fff056c76f0
+152: 2022-06-01 12:29:14 <18411> Backtrace:
+153: 2022-06-01 12:29:14 <18411> [0x7f7faca75dfd] => /usr/lib/x86_64-linux-gnu/libc.so.6  liboffset
+154: 2022-06-01 12:29:14 00151dfd
+155: 2022-06-01 12:29:14 <18411> [0x00000000]
+156: 2022-06-01 12:29:14 <18411> [0x00000000]
+157: 2022-06-01 12:29:22 httpsd previously crashed 1 times. The last crash was at 2022-06-01 12:29:14.
+158: 2022-06-01 12:29:22 <18425> firmware FortiGate-400E v6.2.5,build1142b1142,200819 (GA) (Release)
+159: 2022-06-01 12:29:22 <18425> application httpsd
+160: 2022-06-01 12:29:22 <18425> *** signal 11 (Segmentation fault) received ***
+161: 2022-06-01 12:29:22 <18425> Register dump:
+162: 2022-06-01 12:29:22 <18425> RAX: 0000000000000000   RBX: 00000000fffffffc
+163: 2022-06-01 12:29:22 <18425> RCX: fffffffffffdc7d0   RDX: 00007fff056a5860
+164: 2022-06-01 12:29:22 <18425> R08: 0000000000000000   R09: 0000000000000001
+165: 2022-06-01 12:29:22 <18425> R10: 0000000000000008   R11: 0000000000000246
+166: 2022-06-01 12:29:22 <18425> R12: 0000000000000000   R13: 00007fff056a5860
+167: 2022-06-01 12:29:22 <18425> R14: 0000000000000005   R15: 00007fff056a57e0
+168: 2022-06-01 12:29:22 <18425> RSI: 0000000000000000   RDI: 00007fff056c9000
+169: 2022-06-01 12:29:22 <18425> RBP: 00007fff056a67c0   RSP: 00007fff056a5888
+170: 2022-06-01 12:29:22 <18425> RIP: 00007f7faca75dfd   EFLAGS: 0000000000010282
+171: 2022-06-01 12:29:22 <18425> CS:  0033   FS: 0000   GS: 0000
+172: 2022-06-01 12:29:22 <18425> Trap: 000000000000000e   Error: 0000000000000006
+173: 2022-06-01 12:29:22 <18425> OldMask: 0000000000000000
+174: 2022-06-01 12:29:22 <18425> CR2: 00007fff056c9000
+175: 2022-06-01 12:29:22 <18425> stack: 0x7fff056a5888 - 0x7fff056c76f0
+176: 2022-06-01 12:29:22 <18425> Backtrace:
+177: 2022-06-01 12:29:22 <18425> [0x7f7faca75dfd] => /usr/lib/x86_64-linux-gnu/libc.so.6  liboffset
+178: 2022-06-01 12:29:22 00151dfd
+179: 2022-06-01 12:29:22 <18425> [0x00000000]
+180: 2022-06-01 12:29:22 <18425> [0x00000000]
+181: 2022-06-01 12:29:22 httpsd previously crashed 2 times. The last crash was at 2022-06-01 12:29:22.
+182: 2022-06-01 12:29:22 <18427> firmware FortiGate-400E v6.2.5,build1142b1142,200819 (GA) (Release)
+183: 2022-06-01 12:29:22 <18427> application httpsd
+184: 2022-06-01 12:29:22 <18427> *** signal 11 (Segmentation fault) received ***
+185: 2022-06-01 12:29:22 <18427> Register dump:
+186: 2022-06-01 12:29:22 <18427> RAX: 0000000000000000   RBX: 00000000fffffffc
+187: 2022-06-01 12:29:22 <18427> RCX: fffffffffffdc7d0   RDX: 00007fff056a5860
+188: 2022-06-01 12:29:22 <18427> R08: 0000000000000000   R09: 0000000000000001
+189: 2022-06-01 12:29:22 <18427> R10: 0000000000000008   R11: 0000000000000246
+190: 2022-06-01 12:29:22 <18427> R12: 0000000000000000   R13: 00007fff056a5860
+191: 2022-06-01 12:29:22 <18427> R14: 0000000000000005   R15: 00007fff056a57e0
+192: 2022-06-01 12:29:22 <18427> RSI: 0000000000000000   RDI: 00007fff056c9000
+193: 2022-06-01 12:29:22 <18427> RBP: 00007fff056a67c0   RSP: 00007fff056a5888
+194: 2022-06-01 12:29:22 <18427> RIP: 00007f7faca75dfd   EFLAGS: 0000000000010282
+195: 2022-06-01 12:29:22 <18427> CS:  0033   FS: 0000   GS: 0000
+196: 2022-06-01 12:29:22 <18427> Trap: 000000000000000e   Error: 0000000000000006
+197: 2022-06-01 12:29:22 <18427> OldMask: 0000000000000000
+198: 2022-06-01 12:29:22 <18427> CR2: 00007fff056c9000
+199: 2022-06-01 12:29:22 <18427> stack: 0x7fff056a5888 - 0x7fff056c76f0
+200: 2022-06-01 12:29:22 <18427> Backtrace:
+201: 2022-06-01 12:29:22 <18427> [0x7f7faca75dfd] => /usr/lib/x86_64-linux-gnu/libc.so.6  liboffset
+202: 2022-06-01 12:29:22 00151dfd
+203: 2022-06-01 12:29:22 <18427> [0x00000000]
+204: 2022-06-01 12:29:22 <18427> [0x00000000]
+205: 2022-06-01 12:29:52 <22754> firmware FortiGate-400E v6.2.5,build1142b1142,200819 (GA) (Release)
+206: 2022-06-01 12:29:52 <22754> application sshd
+207: 2022-06-01 12:29:52 <22754> *** signal 11 (Segmentation fault) received ***
+208: 2022-06-01 12:29:52 <22754> Register dump:
+209: 2022-06-01 12:29:52 <22754> RAX: 0000000000000000   RBX: 00000000fffffffc
+210: 2022-06-01 12:29:52 <22754> RCX: ffffffffffffc160   RDX: 00007fff056c51f0
+211: 2022-06-01 12:29:52 <22754> R08: 0000000000000000   R09: 0000000000000001
+212: 2022-06-01 12:29:52 <22754> R10: 0000000000000008   R11: 0000000000000246
+213: 2022-06-01 12:29:52 <22754> R12: 0000000000000000   R13: 00007fff056c51f0
+214: 2022-06-01 12:29:52 <22754> R14: 0000000012fd5020   R15: 00007fff056c5170
+215: 2022-06-01 12:29:52 <22754> RSI: 0000000000000000   RDI: 00007fff056c9000
+216: 2022-06-01 12:29:52 <22754> RBP: 00007fff056c6150   RSP: 00007fff056c5218
+217: 2022-06-01 12:29:52 <22754> RIP: 00007f7faca75dfd   EFLAGS: 0000000000010282
+218: 2022-06-01 12:29:52 <22754> CS:  0033   FS: 0000   GS: 0000
+219: 2022-06-01 12:29:52 <22754> Trap: 000000000000000e   Error: 0000000000000006
+220: 2022-06-01 12:29:52 <22754> OldMask: 0000000000000000
+221: 2022-06-01 12:29:52 <22754> CR2: 00007fff056c9000
+222: 2022-06-01 12:29:52 <22754> stack: 0x7fff056c5218 - 0x7fff056c76f0
+223: 2022-06-01 12:29:52 <22754> Backtrace:
+224: 2022-06-01 12:29:52 <22754> [0x7f7faca75dfd] => /usr/lib/x86_64-linux-gnu/libc.so.6  liboffset
+225: 2022-06-01 12:29:52 00151dfd
+226: 2022-06-01 12:29:52 <22754> [0x00000000]
+227: 2022-06-01 12:29:52 <22754> [0x00000000]
+228: 2022-06-01 12:37:03 httpsd previously crashed 3 times. The last crash was at 2022-06-01 12:29:22.
+229: 2022-06-01 12:37:03 <29483> firmware FortiGate-400E v6.2.5,build1142b1142,200819 (GA) (Release)
+230: 2022-06-01 12:37:03 <29483> application httpsd
+231: 2022-06-01 12:37:03 <29483> *** signal 11 (Segmentation fault) received ***
+232: 2022-06-01 12:37:03 <29483> Register dump:
+233: 2022-06-01 12:37:03 <29483> RAX: 0000000000000000   RBX: 00000000fffffffc
+234: 2022-06-01 12:37:03 <29483> RCX: fffffffffffdc7d0   RDX: 00007fff056a5860
+235: 2022-06-01 12:37:03 <29483> R08: 0000000000000000   R09: 0000000000000001
+236: 2022-06-01 12:37:03 <29483> R10: 0000000000000008   R11: 0000000000000246
+237: 2022-06-01 12:37:03 <29483> R12: 0000000000000000   R13: 00007fff056a5860
+238: 2022-06-01 12:37:03 <29483> R14: 0000000000000005   R15: 00007fff056a57e0
+239: 2022-06-01 12:37:03 <29483> RSI: 0000000000000000   RDI: 00007fff056c9000
+240: 2022-06-01 12:37:03 <29483> RBP: 00007fff056a67c0   RSP: 00007fff056a5888
+241: 2022-06-01 12:37:03 <29483> RIP: 00007f7faca75dfd   EFLAGS: 0000000000010282
+242: 2022-06-01 12:37:03 <29483> CS:  0033   FS: 0000   GS: 0000
+243: 2022-06-01 12:37:03 <29483> Trap: 000000000000000e   Error: 0000000000000006
+244: 2022-06-01 12:37:03 <29483> OldMask: 0000000000000000
+245: 2022-06-01 12:37:03 <29483> CR2: 00007fff056c9000
+246: 2022-06-01 12:37:03 <29483> stack: 0x7fff056a5888 - 0x7fff056c76f0
+247: 2022-06-01 12:37:03 <29483> Backtrace:
+248: 2022-06-01 12:37:03 <29483> [0x7f7faca75dfd] => /usr/lib/x86_64-linux-gnu/libc.so.6  liboffset
+249: 2022-06-01 12:37:03 00151dfd
+250: 2022-06-01 12:37:03 <29483> [0x00000000]
+251: 2022-06-01 12:37:03 <29483> [0x00000000]
+252: 2022-06-01 12:37:03 httpsd previously crashed 4 times. The last crash was at 2022-06-01 12:37:03.
+253: 2022-06-01 12:37:03 <16959> firmware FortiGate-400E v6.2.5,build1142b1142,200819 (GA) (Release)
+254: 2022-06-01 12:37:03 <16959> application httpsd
+255: 2022-06-01 12:37:03 <16959> *** signal 11 (Segmentation fault) received ***
+256: 2022-06-01 12:37:03 <16959> Register dump:
+257: 2022-06-01 12:37:03 <16959> RAX: 0000000000000000   RBX: 00000000fffffffc
+258: 2022-06-01 12:37:03 <16959> RCX: fffffffffffdc7d0   RDX: 00007fff056a5860
+259: 2022-06-01 12:37:03 <16959> R08: 0000000000000000   R09: 0000000000000001
+260: 2022-06-01 12:37:03 <16959> R10: 0000000000000008   R11: 0000000000000246
+261: 2022-06-01 12:37:03 <16959> R12: 0000000000000000   R13: 00007fff056a5860
+262: 2022-06-01 12:37:03 <16959> R14: 0000000000000005   R15: 00007fff056a57e0
+263: 2022-06-01 12:37:03 <16959> RSI: 0000000000000000   RDI: 00007fff056c9000
+264: 2022-06-01 12:37:03 <16959> RBP: 00007fff056a67c0   RSP: 00007fff056a5888
+265: 2022-06-01 12:37:03 <16959> RIP: 00007f7faca75dfd   EFLAGS: 0000000000010282
+266: 2022-06-01 12:37:03 <16959> CS:  0033   FS: 0000   GS: 0000
+267: 2022-06-01 12:37:03 <16959> Trap: 000000000000000e   Error: 0000000000000006
+268: 2022-06-01 12:37:03 <16959> OldMask: 0000000000000000
+269: 2022-06-01 12:37:03 <16959> CR2: 00007fff056c9000
+270: 2022-06-01 12:37:03 <16959> stack: 0x7fff056a5888 - 0x7fff056c76f0
+271: 2022-06-01 12:37:03 <16959> Backtrace:
+272: 2022-06-01 12:37:03 <16959> [0x7f7faca75dfd] => /usr/lib/x86_64-linux-gnu/libc.so.6  liboffset
+273: 2022-06-01 12:37:03 00151dfd
+274: 2022-06-01 12:37:03 <16959> [0x00000000]
+275: 2022-06-01 12:37:03 <16959> [0x00000000]
+276: 2022-06-01 12:37:03 httpsd previously crashed 5 times. The last crash was at 2022-06-01 12:37:03.
+277: 2022-06-01 12:37:03 <18408> firmware FortiGate-400E v6.2.5,build1142b1142,200819 (GA) (Release)
+278: 2022-06-01 12:37:03 <18408> application httpsd
+279: 2022-06-01 12:37:03 <18408> *** signal 11 (Segmentation fault) received ***
+280: 2022-06-01 12:37:03 <18408> Register dump:
+281: 2022-06-01 12:37:03 <18408> RAX: 0000000000000000   RBX: 00000000fffffffc
+282: 2022-06-01 12:37:03 <18408> RCX: fffffffffffdc7d0   RDX: 00007fff056a5860
+283: 2022-06-01 12:37:03 <18408> R08: 0000000000000000   R09: 0000000000000001
+284: 2022-06-01 12:37:03 <18408> R10: 0000000000000008   R11: 0000000000000246
+285: 2022-06-01 12:37:03 <18408> R12: 0000000000000000   R13: 00007fff056a5860
+286: 2022-06-01 12:37:03 <18408> R14: 0000000000000005   R15: 00007fff056a57e0
+287: 2022-06-01 12:37:03 <18408> RSI: 0000000000000000   RDI: 00007fff056c9000
+288: 2022-06-01 12:37:03 <18408> RBP: 00007fff056a67c0   RSP: 00007fff056a5888
+289: 2022-06-01 12:37:03 <18408> RIP: 00007f7faca75dfd   EFLAGS: 0000000000010282
+290: 2022-06-01 12:37:03 <18408> CS:  0033   FS: 0000   GS: 0000
+291: 2022-06-01 12:37:03 <18408> Trap: 000000000000000e   Error: 0000000000000006
+292: 2022-06-01 12:37:03 <18408> OldMask: 0000000000000000
+293: 2022-06-01 12:37:03 <18408> CR2: 00007fff056c9000
+294: 2022-06-01 12:37:03 <18408> stack: 0x7fff056a5888 - 0x7fff056c76f0
+295: 2022-06-01 12:37:03 <18408> Backtrace:
+296: 2022-06-01 12:37:03 <18408> [0x7f7faca75dfd] => /usr/lib/x86_64-linux-gnu/libc.so.6  liboffset
+297: 2022-06-01 12:37:03 00151dfd
+298: 2022-06-01 12:37:03 <18408> [0x00000000]
+299: 2022-06-01 12:37:03 <18408> [0x00000000]
+300: 2022-06-01 12:38:05 sshd previously crashed 1 times. The last crash was at 2022-06-01 12:29:52.
+301: 2022-06-01 12:38:05 <22770> firmware FortiGate-400E v6.2.5,build1142b1142,200819 (GA) (Release)
+302: 2022-06-01 12:38:05 <22770> application sshd
+303: 2022-06-01 12:38:05 <22770> *** signal 11 (Segmentation fault) received ***
+304: 2022-06-01 12:38:05 <22770> Register dump:
+305: 2022-06-01 12:38:05 <22770> RAX: 0000000000000000   RBX: 00000000fffffffc
+306: 2022-06-01 12:38:05 <22770> RCX: ffffffffffffc160   RDX: 00007fff056c51f0
+307: 2022-06-01 12:38:05 <22770> R08: 0000000000000000   R09: 0000000000000001
+308: 2022-06-01 12:38:05 <22770> R10: 0000000000000008   R11: 0000000000000246
+309: 2022-06-01 12:38:05 <22770> R12: 0000000000000000   R13: 00007fff056c51f0
+310: 2022-06-01 12:38:05 <22770> R14: 0000000012fd5020   R15: 00007fff056c5170
+311: 2022-06-01 12:38:05 <22770> RSI: 0000000000000000   RDI: 00007fff056c9000
+312: 2022-06-01 12:38:05 <22770> RBP: 00007fff056c6150   RSP: 00007fff056c5218
+313: 2022-06-01 12:38:05 <22770> RIP: 00007f7faca75dfd   EFLAGS: 0000000000010282
+314: 2022-06-01 12:38:05 <22770> CS:  0033   FS: 0000   GS: 0000
+315: 2022-06-01 12:38:05 <22770> Trap: 000000000000000e   Error: 0000000000000006
+316: 2022-06-01 12:38:05 <22770> OldMask: 0000000000000000
+317: 2022-06-01 12:38:05 <22770> CR2: 00007fff056c9000
+318: 2022-06-01 12:38:05 <22770> stack: 0x7fff056c5218 - 0x7fff056c76f0
+319: 2022-06-01 12:38:05 <22770> Backtrace:
+320: 2022-06-01 12:38:05 <22770> [0x7f7faca75dfd] => /usr/lib/x86_64-linux-gnu/libc.so.6  liboffset
+321: 2022-06-01 12:38:05 00151dfd
+322: 2022-06-01 12:38:05 <22770> [0x00000000]
+323: 2022-06-01 12:38:05 <22770> [0x00000000]
+324: 2022-06-01 13:37:07 httpsd crashed 6 times. The latest crash was at 2022-06-01 12:37:03.
+325: 2022-06-01 13:38:07 sshd crashed 2 times. The latest crash was at 2022-06-01 12:38:05.
+Crash log interval is 3600 seconds
