@@ -2,7 +2,7 @@ bgp_up_output = """
 Threading mode: BGP I/O
 Groups: 2 Peers: 6 Down peers: 0
 """
-bgp_down_output = """
+bgp_down_output = """Threading mode: BGP I/O
 Groups: 2 Peers: 6 Down peers: 2
 Peer                     AS      InPkt     OutPkt    OutQ   Flaps Last Up/Dwn State|#Active/Received/Accepted/Damped...
 10.2.57.254           65252    1165670    1238837       0       1 9w2d 5:23:37 Idle
@@ -16,10 +16,13 @@ Peer                     AS      InPkt     OutPkt    OutQ   Flaps Last Up/Dwn St
 10.192.252.254        65252     811361     865023       0      20 6w3d 13:02:22 Establ
   wanUntrust.inet.0: 6/74/74/0
 10.193.128.254        65252    1162649    1238837       0       1 9w2d 5:23:33 Establ
-  wanUntrust.inet.0: 4/72/72/0
-"""
+  wanUntrust.inet.0: 4/72/72/0"""
+  
 from ntc_templates.parse import parse_output
 from tabulate import tabulate
+import textfsm
 
 o_parsed = parse_output(platform="juniper_junos", command="show bgp summary", data=bgp_down_output)
-o_parsed
+
+# print(bgp_down_output)
+print(o_parsed)
