@@ -1,5 +1,5 @@
 import time
-# from getpass import getpass
+from getpass import getpass
 from netmiko import ConnectHandler
 from netmiko.ssh_exception import NetMikoTimeoutException
 from paramiko.ssh_exception import SSHException
@@ -16,10 +16,9 @@ except KeyboardInterrupt:   # exit when ctrl+c is pressed
     raise SystemExit """
 
 usr = "yms"
-    # pwd = getpass("Password: ") 
-pwd = "554297nHH"
+pwd = getpass("Password: ") 
 
-# TimerStart = time.perf_counter()    # start timer
+TimerStart = time.perf_counter()    # start timer
 
 # Opening the file with IP addresses
 with open("devices.file") as f:
